@@ -1660,8 +1660,11 @@ embed, iframe, object { max-width: 100% }
 #site-header .full-width {
     border-bottom: #e8e8e8 1px solid;
 }
-#navigation .menu .current-cat {
+#navigation .menu .current-menu-item {
     border-top: #cc4452 3px solid;
+}
+#navigation .menu li {
+    border-top: 3px solid transparent;
 }
 
 
