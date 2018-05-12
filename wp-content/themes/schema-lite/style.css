@@ -176,7 +176,7 @@ html { box-sizing: border-box }
 *, *:before, *:after {
     box-sizing: inherit;
 }
-body { background: #eee; /* Fallback for when there is no custom background color defined. */ }
+body { background: #fff; /* Fallback for when there is no custom background color defined. */ }
 blockquote:before, blockquote:after, q:before, q:after { content: "" }
 blockquote, q { quotes: "" "" }
 blockquote {
@@ -323,7 +323,7 @@ body > header {
     width: 100%;
     z-index: 99;
     padding: 0;
-    background: #222;
+    background: transparent;
 }
 .site-branding {
     position: relative;
@@ -363,7 +363,7 @@ a#pull { display: none }
 .primary-navigation .children li .sf-sub-indicator { display: none }
 .primary-navigation {
     display: block;
-    float: right;
+    float: left;
     max-width: 100%;
     margin: 0;
 }
@@ -371,14 +371,16 @@ a#pull { display: none }
 #navigation a {
     text-align: left;
     text-decoration: none;
-    padding: 25px;
+    padding: 8px 20px 8px 20px;
     transition: none;
     font-family: 'Raleway';
-    font-weight: 700;
+    font-weight: 300;
     font-size: 16px;
     color: #fff;
-    text-transform: uppercase;
     display: block;
+    color: #424242 !important;
+    border-left: #e8e8e8 1px solid;
+    margin: 10px 0 14px 0;
 }
 .primary-navigation a .sub {
     font-size: 11px;
@@ -1594,6 +1596,76 @@ embed, iframe, object { max-width: 100% }
 }
 .rtl_on { direction: rtl; }
 .rtl_off { direction: ltr; }
+
+/* --------------------------------------MAIN HEADER------------------------------------*/
+
+/* Top Header */
+.top-bar-wrapper {
+    border-bottom: #e8e8e8 1px solid;
+    overflow: hidden;
+}
+.top-bar {
+    max-width: 1152px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+.top-bar .top-bar-left {
+    float: left;
+}
+.top-bar .top-bar-left p {
+    margin: 18px 0 0;
+    line-height: 1;
+    font-size: 15px;
+}
+
+.top-bar .top-bar-right {
+    float: right;
+}
+.top-bar .top-bar-right ul {
+    float: left;
+    margin: 16px 20px 0 0;
+}
+.top-bar .top-bar-right ul li {
+    float: left;
+    font-size: 15px;
+    list-style: none;
+}
+.top-bar .top-bar-right ul li::after {
+    content: '/';
+    color: #ccc;
+    margin: 0 4px;
+}
+.top-bar .top-bar-right ul li a {
+    color: #424242;
+}
+.top-bar .top-bar-right .topright-button {
+    float: right;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px 20px;
+    display: inline-table;
+    background-color: #cc4452;
+}
+
+/* Logo */
+.logo {
+    padding: 20px 0;
+    text-align: center;
+}
+.logo a > img {
+    width: 30%;
+}
+
+/* Menu Links */
+#site-header .full-width {
+    border-bottom: #e8e8e8 1px solid;
+}
+#navigation .menu .current-cat {
+    border-top: #cc4452 3px solid;
+}
+
+
+
 @media screen and (max-width: 1100px) {
     #page, .container { max-width: 96% }
 }
@@ -1656,7 +1728,7 @@ embed, iframe, object { max-width: 100% }
     a#pull {
         display: block;
         width: 100%;
-        background: #1D2933;
+        background: #cc4452;
         color: #fff;
         padding: 10px 0;
         text-indent: 2%;
@@ -1779,6 +1851,18 @@ embed, iframe, object { max-width: 100% }
     #wpmm-megamenu.wpmm-light-scheme { display: none }
     .wpmm-megamenu-showing.wpmm-light-scheme { background: transparent!important }
     .single-title, .title { font-size: 28px }
+
+    /* Top header */
+    .top-bar-wrapper {
+        padding: 0 15px;
+    }
+    .top-bar .top-bar-right ul {
+        display: none;
+    }
+
+    .logo a > img {
+        width: 50%;
+    }
 }
 @media screen and (max-width: 720px) {
     .article {
@@ -1823,6 +1907,10 @@ embed, iframe, object { max-width: 100% }
         margin-bottom: 0;
     }
     #copyright-note, .top {
+        width: 100%;
+        text-align: center;
+    }
+    .top-bar .top-bar-left, .top-bar .top-bar-right, .top-bar .top-bar-right .topright-button {
         width: 100%;
         text-align: center;
     }
