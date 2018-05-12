@@ -32,32 +32,32 @@
 			</div>
 		</div>
 		<header id="site-header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-			<div class="container clear">
-				<div class="site-branding">
-					<?php if (has_custom_logo()) { ?>
-						<?php if( is_front_page() || is_home() || is_404() ) { ?>
-							<h1 id="logo" class="image-logo" itemprop="headline">
-								<?php the_custom_logo(); ?>
-							</h1><!-- END #logo -->
-						<?php } else { ?>
-							<h2 id="logo" class="image-logo" itemprop="headline">
-								<?php the_custom_logo(); ?>
-							</h2><!-- END #logo -->
-						<?php } ?>
-					<?php } else { ?>
-						<?php if( is_front_page() || is_home() || is_404() ) { ?>
-							<h1 id="logo" class="site-title" itemprop="headline">
-								<a href="<?php echo esc_url(home_url()); ?>"><?php bloginfo( 'name' ); ?></a>
-							</h1><!-- END #logo -->
-						<?php } else { ?>
-							<h2 id="logo" class="site-title" itemprop="headline">
-								<a href="<?php echo esc_url(home_url()); ?>"><?php bloginfo( 'name' ); ?></a>
-							</h2><!-- END #logo -->
-						<?php } ?>
-					<?php } ?>
-				</div><!-- .site-branding -->
 
-				<div class="primary-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+            <!-- #top header -->
+            <div class="top-bar-wrapper">
+                <div class="top-bar">
+                    <div class="top-bar-left">
+                        <p>Luxury Transport Services In Morocco</p>
+                    </div>
+                    <div class="top-bar-right">
+
+                        <ul><li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Fleet</a></li>
+                            <li><a href="#">Service Rates</a></li>
+                        </ul>
+                        <a href="#" class="topright-button"><span>Online Booking</span></a>
+                    </div>
+                </div>
+            </div>
+			<div class="full-width clear">
+                <div class="container clear">
+                    <div class="logo">
+                        <a href="/"><img class="responsive" src="/wp-content/themes/schema-lite/images/logo.png" /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container clear">
+                <div class="primary-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 					<a href="#" id="pull" class="toggle-mobile-menu"><?php _e('Menu', 'schema-lite'); ?></a>
 					<nav id="navigation" class="primary-navigation mobile-menu-wrapper" role="navigation">
 						<?php if ( has_nav_menu( 'primary' ) ) { ?>
@@ -70,5 +70,4 @@
 					</nav><!-- #site-navigation -->
 				</div>
 			</div>
-			
 		</header><!-- #masthead -->
