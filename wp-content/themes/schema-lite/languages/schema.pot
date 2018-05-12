@@ -1,0 +1,410 @@
+# Copyright (C) 2016 MyThemeShop
+# This file is distributed under the same license as the MyThemeShop Base Theme package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Schema Lite Theme by MyThemeShop\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2017-11-03 15:35+0530\n"
+"PO-Revision-Date: 2017-07-28 00:24+0530\n"
+"Last-Translator: MyThemeShop <support-team@mythemeshop.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:15
+msgid "Error 404 Not Found"
+msgstr ""
+
+#: ../404.php:18
+msgid "Oops! We couldn't find this Page."
+msgstr ""
+
+#: ../404.php:19
+msgid "Please check your URL or use the search form below."
+msgstr ""
+
+#: ../comments.php:8
+msgid "This post is password protected. Enter the password to view comments"
+msgstr ""
+
+#: ../comments.php:14
+msgid "No Comments"
+msgstr ""
+
+#: ../comments.php:14
+msgid "One Comment"
+msgstr ""
+
+#: ../comments.php:14 ../functions.php:599 ../single.php:37
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:36
+msgid "Add a Comment"
+msgstr ""
+
+#: ../comments.php:37
+msgid "Add Comment"
+msgstr ""
+
+#: ../comments.php:38
+msgid "Comment:"
+msgstr ""
+
+#: ../comments.php:42
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:45
+msgid "Email Address"
+msgstr ""
+
+#: ../comments.php:48
+msgid "Website"
+msgstr ""
+
+#: ../functions.php:103
+msgid "Footer 1"
+msgstr ""
+
+#: ../functions.php:104
+msgid "First footer column"
+msgstr ""
+
+#: ../functions.php:114
+msgid "Footer 2"
+msgstr ""
+
+#: ../functions.php:115
+msgid "Second footer column"
+msgstr ""
+
+#: ../functions.php:125
+msgid "Footer 3"
+msgstr ""
+
+#: ../functions.php:126
+msgid "Third footer column"
+msgstr ""
+
+#: ../functions.php:137
+msgid "Shop Page Sidebar"
+msgstr ""
+
+#: ../functions.php:138
+msgid "Appears on Shop main page and product archive pages."
+msgstr ""
+
+#: ../functions.php:146
+msgid "Single Product Sidebar"
+msgstr ""
+
+#: ../functions.php:147
+msgid "Appears on single product pages."
+msgstr ""
+
+#: ../functions.php:261
+msgid "Copyright"
+msgstr ""
+
+#: ../functions.php:261
+msgid "Y"
+msgstr ""
+
+#: ../functions.php:276 ../inc/customizer.php:144
+msgid "Theme by"
+msgstr ""
+
+#: ../functions.php:279
+msgid "Back to Top"
+msgstr ""
+
+#: ../functions.php:302
+msgid "(Edit)"
+msgstr ""
+
+#: ../functions.php:307
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:352
+msgid "[Continue reading...]"
+msgstr ""
+
+#: ../functions.php:370
+msgid "Home"
+msgstr ""
+
+#: ../functions.php:461 ../functions.php:467
+msgid "on"
+msgstr ""
+
+#: ../functions.php:596 ../single.php:34
+msgid "By"
+msgstr ""
+
+#: ../functions.php:599 ../single.php:37
+msgid "0 Comments"
+msgstr ""
+
+#: ../functions.php:599 ../single.php:37
+msgid "1 Comment"
+msgstr ""
+
+#: ../functions/widget-social.php:58
+msgid "Facebook URI"
+msgstr ""
+
+#: ../functions/widget-social.php:62
+msgid "Behance URI"
+msgstr ""
+
+#: ../functions/widget-social.php:66
+msgid "Flickr URI"
+msgstr ""
+
+#: ../functions/widget-social.php:70
+msgid "Google+ URI"
+msgstr ""
+
+#: ../functions/widget-social.php:74
+msgid "Pinterest URI"
+msgstr ""
+
+#: ../functions/widget-social.php:78
+msgid "Instagram URI"
+msgstr ""
+
+#: ../functions/widget-social.php:82
+msgid "Dribbble URI"
+msgstr ""
+
+#: ../functions/widget-social.php:86
+msgid "Linkedin URI"
+msgstr ""
+
+#: ../functions/widget-social.php:90
+msgid "Soundcloud URI"
+msgstr ""
+
+#: ../functions/widget-social.php:94
+msgid "Twitter URI"
+msgstr ""
+
+#: ../functions/widget-social.php:98
+msgid "Vimeo URI"
+msgstr ""
+
+#: ../functions/widget-social.php:102
+msgid "StumbleUpon URI"
+msgstr ""
+
+#: ../functions/widget-social.php:106
+msgid "Tumblr URI"
+msgstr ""
+
+#: ../functions/widget-social.php:110
+msgid "GitHub URI"
+msgstr ""
+
+#: ../functions/widget-social.php:114
+msgid "YouTube URI"
+msgstr ""
+
+#: ../functions/widget-social.php:118
+msgid "FourSquare URI"
+msgstr ""
+
+#: ../functions/widget-social.php:122
+msgid "Reddit URI"
+msgstr ""
+
+#: ../functions/widget-social.php:126
+msgid "Dropbox URI"
+msgstr ""
+
+#: ../functions/widget-social.php:130
+msgid "Skype URI"
+msgstr ""
+
+#: ../functions/widget-social.php:134
+msgid "Email URI"
+msgstr ""
+
+#: ../functions/widget-social.php:138
+msgid "RSS URI"
+msgstr ""
+
+#: ../functions/widget-social.php:145
+msgid "Show profile icons."
+msgstr ""
+
+#: ../functions/widget-social.php:152
+msgid "Schema Social Profile Icons"
+msgstr ""
+
+#: ../functions/widget-social.php:168
+msgid "Title:"
+msgstr ""
+
+#: ../header.php:61
+msgid "Menu"
+msgstr ""
+
+#: ../inc/customizer.php:21
+msgid "Theme Options"
+msgstr ""
+
+#: ../inc/customizer.php:22
+msgid "MyThemeShop Mission Control Center"
+msgstr ""
+
+#: ../inc/customizer.php:29
+msgid "Styling Settings"
+msgstr ""
+
+#: ../inc/customizer.php:43
+msgid "Sidebar Position"
+msgstr ""
+
+#: ../inc/customizer.php:47
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../inc/customizer.php:48
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../inc/customizer.php:58
+msgid "Primary Color Scheme"
+msgstr ""
+
+#: ../inc/customizer.php:67
+msgid "Secondary Color Scheme"
+msgstr ""
+
+#: ../inc/customizer.php:80
+msgid "Posts on Homepage"
+msgstr ""
+
+#: ../inc/customizer.php:84
+msgid "Excerpts"
+msgstr ""
+
+#: ../inc/customizer.php:85
+msgid "Full Posts"
+msgstr ""
+
+#: ../inc/customizer.php:93
+msgid "Header"
+msgstr ""
+
+#: ../inc/customizer.php:103 ../inc/customizer.php:120
+msgid "Pagination Type"
+msgstr ""
+
+#: ../inc/customizer.php:125
+msgid "Next/Previous"
+msgstr ""
+
+#: ../inc/customizer.php:126
+msgid "Numbered"
+msgstr ""
+
+#: ../inc/customizer.php:137
+msgid "Footer"
+msgstr ""
+
+#: ../inc/customizer.php:149
+msgid "Copyrights Text"
+msgstr ""
+
+#: ../inc/customizer.php:150
+#, php-format
+msgid ""
+"You can change or remove our link from footer and use your own custom text."
+"(You can also use your affiliate link to earn 70% of sales. Ex: https://"
+"mythemeshop.com/?ref=username)"
+msgstr ""
+
+#: ../inc/customizer.php:160
+msgid "Single Post Settings"
+msgstr ""
+
+#: ../inc/customizer.php:174
+msgid "Breadcrumb Section"
+msgstr ""
+
+#: ../inc/customizer.php:179 ../inc/customizer.php:197
+#: ../inc/customizer.php:215 ../inc/customizer.php:233
+msgid "OFF"
+msgstr ""
+
+#: ../inc/customizer.php:180 ../inc/customizer.php:198
+#: ../inc/customizer.php:216 ../inc/customizer.php:234
+msgid "ON"
+msgstr ""
+
+#: ../inc/customizer.php:192
+msgid "Tags Section"
+msgstr ""
+
+#: ../inc/customizer.php:210
+msgid "Related Posts Section"
+msgstr ""
+
+#: ../inc/customizer.php:228
+msgid "Author box Section"
+msgstr ""
+
+#: ../inc/template-tags.php:28
+msgid "Posts navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:31
+msgid " Older posts"
+msgstr ""
+
+#: ../inc/template-tags.php:35
+msgid "Newer posts "
+msgstr ""
+
+#: ../page.php:29 ../single.php:44
+msgid "Next"
+msgstr ""
+
+#: ../page.php:29 ../single.php:44
+msgid "Previous"
+msgstr ""
+
+#: ../sidebar.php:17
+msgid "Search"
+msgstr ""
+
+#: ../sidebar.php:23
+msgid "Archives"
+msgstr ""
+
+#: ../sidebar.php:31
+msgid "Meta"
+msgstr ""
+
+#: ../single.php:47
+msgid "Tags"
+msgstr ""
+
+#: ../single.php:64
+msgid "Related Posts"
+msgstr ""
+
+#: ../single.php:99
+msgid "About Author"
+msgstr ""
